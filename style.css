@@ -14,6 +14,18 @@ body{
     flex-direction: column;
 }
 
+.logo{
+    font-size: 24px;
+}
+
+.text{
+    font-size: 20px;
+}
+
+.leftIntro{
+    margin: 20px;
+}
+
 a{
     color: azure;
 }
@@ -49,7 +61,6 @@ a{
 }
 
 .intro{
-    margin-left: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -72,13 +83,126 @@ button{
   display: inline-block;
   font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: bold;
   line-height: 20px;
   padding: 10px 12px;
 }
 
 .content{
     flex: 1;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.part1{
+
+    background-color: #b05f6d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: ;
+}
+
+
+
+
+.part2{
+    flex: 1;
+    background-color: #eb6b56; 
+}
+
+.part3{
+    flex: 1;
+    background-color: #ffc153;
+    padding: 80px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.item{
+    
+    background-color: white;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+/* .imgItem{
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    
+} */
+
+.cat-1{
+    background-image: url("item1.jpg");
+}
+.cat-2{
+    background-image: url("item2.jpg");
+}
+.cat-3{
+    background-image: url("item3.jpg") ;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cat-4{
+    background-image: url("item4.jpg");
+}
+
+.blochquote{
+    max-width: 600px;
+    margin: 10px 30px;
+    padding: 25px;
+    border: 1px solid #1f2937;
+    box-sizing: border-box;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+
+}
+
+.credit{
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+}
+
+.azra9{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: 36px;
+    font-weight: bolder
+}
+
+.button2{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 30px 24px;
 }
 
 .footer{
@@ -88,34 +212,4 @@ button{
     align-items: center;
     justify-content: center;
 }
-.content{
-    display: flex;
-    flex-direction: column;
-    justify-content: inherit;
 
-}
-.part1{
-    flex: 1;
-    background-color: #b05f6d;
-}
-.part2{
-    flex: 1;
-
-    background-color: #eb6b56; 
-}
-.part3{
-    flex: 1;
-    background-color: #ffc153;
-}
-.items{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.item{
-    border-width: thin;
-    border-style: solid;
-    width: 50px;
-    height: 40px;
-}
