@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header{
+    margin: 0;
+    background-color: #462446;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    color: azure;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: azure;
+
+}
+
+
+.introImg{
+    padding-right: 20px;
+    width: 400px;
+    height: 205px;
+
+}
+
+.intro{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*button{
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    <!-- HTML !-->
+<button class="button-2" role="button">Button 2</button>*/
+
+/* CSS */
+button{
+  background-color:#3882f6;
+  border-radius: 8px;
+  border: none;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 10px 12px;
+}
+
+.content{
+    flex: 1;
+}
+
+.footer{
+    background-color: #47b39d;
+    height: 45px;
+    display: flex; /*hmmmmmmmmmmmmmmmmmmm is this how u center a text in a div*/
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: inherit;
+
+}
+.part1{
+    flex: 1;
+    background-color: #b05f6d;
+}
+.part2{
+    flex: 1;
+
+    background-color: #eb6b56; 
+}
+.part3{
+    flex: 1;
+    background-color: #ffc153;
+}
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.item{
+    border-width: thin;
+    border-style: solid;
+    width: 50px;
+    height: 40px;
+}
